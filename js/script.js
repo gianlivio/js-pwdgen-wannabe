@@ -22,5 +22,12 @@ console.log(num, typeof num);
 // concatenazione
 
 const concatenazione = userName + userSur + userCol + num;
-console.log(concatenazione);
+document.getElementById('result'). innerHTML = concatenazione;
 
+// bonus
+
+const numRandom = Math.floor(Math.random() * 100);
+
+
+const concatenazione2 = userName + userSur + userCol + numRandom;
+document.getElementById('result2'). innerHTML = concatenazione2;
